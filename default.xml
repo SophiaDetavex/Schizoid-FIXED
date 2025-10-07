@@ -368,11 +368,9 @@
   <!-- PAC -->
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
   <project path="frameworks/native" name="PAC-man/android_frameworks_native" />
-  <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
   <project path="packages/apps/HALO" name="PAC-man/android_packages_apps_HALO" revision="jellybean" />
-  <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
   <project path="packages/apps/ROMControl" name="PAC-man/packages_apps_ROMControl" />
-  <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="PAC-man/android_system_core" />
  
@@ -381,7 +379,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="shumashv1/Schizoid" />
-  <project path="device/hp/tenderloin" name="shumashv1/android_device_hp_tenderloin" />
+  <project path="device/bn/encore" name="CyanogenMod/android_device_bn_encore" />
   <project path="packages/apps/Settings" name="shumashv1/android_packages_apps_Settings" />
   <project path="vendor/skz" name="shumashv1/android_vendor_skz" />
   <project path="vendor/cm" name="shumashv1/android_vendor_cm" />
@@ -391,4 +389,5 @@
    <project path="external/backports" name="jcsullins/backports-3.10-2" revision="master" remote="github" />    
 
 </manifest>
+
 
