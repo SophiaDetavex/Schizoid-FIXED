@@ -14,9 +14,6 @@
            remote="github"
            sync-c="true"
            sync-j="16" />
-
-  <!-- SKZ manifest v2.0.0 for cm-10.1| 11-Mar-2013-->
-
   <!-- CM -->
   <project path="build" name="PAC-man/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -215,8 +212,6 @@
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
-  <project path="frameworks/opt/mailcommon" name="CyanogenMod/android_frameworks_opt_mailcommon" />
-  <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" />
@@ -336,4 +331,3 @@
 <!-- Misc -->
 
 </manifest>
-
