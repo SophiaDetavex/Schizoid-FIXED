@@ -7,6 +7,9 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="github"
+           fetch=".." />
+  
   <default revision="refs/heads/cm-10.1"
            remote="github"
            sync-c="true"
@@ -333,3 +336,4 @@
 <!-- Misc -->
 
 </manifest>
+
